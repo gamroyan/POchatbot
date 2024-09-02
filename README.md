@@ -22,7 +22,7 @@ Create a configuration file at `.gitignore/config/config.txt` with the following
 ```
 OPENAI_API_KEY=your_openai_api_key
 MODEL_NAME=your_openai_model_name
-PORT=8000
+PORT=your_port_number
 ```
 And one at `.gitignore/config/questions.txt` containing the questions you want answered. 
 For example:
