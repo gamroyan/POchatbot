@@ -6,7 +6,7 @@ This project contains a basic web scraper that fetches and processes content fro
 
 **chats.py:** A module for interacting with the OpenAI API. It sends the scraped content along with user questions to OpenAI and returns short answers.
 
-**restAPI.py:** A FastAPI-based RESTful API that provides an endpoint to get processed content from a website and answer predefined questions.
+**restAPI.py:** A FastAPI REST API that provides an endpoint to get processed content from a website and answer predefined questions.
 
 **config_loader.py:** Loads configuration settings from a specified file (API key, model name, and port number)
 
