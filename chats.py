@@ -5,7 +5,7 @@
 import httpx
 from config_loader import load_config
 
-config = load_config(".gitignore/config/config.txt")
+config = load_config("config/config.txt")
 
 OPENAI_API_KEY = config.get("OPENAI_API_KEY")
 MODEL_NAME = config.get("MODEL_NAME")

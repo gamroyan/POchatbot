@@ -9,7 +9,7 @@ from config_loader import load_config
 import chats, scraper
 from urllib.parse import urlparse
 
-config = load_config(".gitignore/config/config.txt")
+config = load_config("config/config.txt")
 
 app = FastAPI()
 
@@ -45,7 +45,7 @@ async def get_host_info(host_name: str):
     website_content = scraper.scrape_website(full_url)
     
     # loads questions from the text file
-    questions = load_questions(".gitignore/config/questions.txt")
+    questions = load_questions("config/questions.txt")
     
     # processes each question asynchronously
     responses = [await chats.chat(website_content, question) for question in questions]
