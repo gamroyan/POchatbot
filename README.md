@@ -18,13 +18,13 @@ This project contains a basic web scraper that fetches and processes content fro
 - `uvicorn`
 
 ### Configuration
-Create a configuration file at `.gitignore/config/config.txt` with the following format:
+Create a configuration file at `config/config.txt` with the following format:
 ```
 OPENAI_API_KEY=your_openai_api_key
 MODEL_NAME=your_openai_model_name
 PORT=your_port_number
 ```
-And one at `.gitignore/config/questions.txt` containing the questions you want answered. 
+And one at `config/questions.txt` containing the questions you want answered. 
 For example:
 ```
 What is the name?
